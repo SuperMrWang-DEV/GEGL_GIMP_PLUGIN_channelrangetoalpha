@@ -1,6 +1,7 @@
 # GEGL_GIMP_PLUGIN_channelrangetoalpha
 
-![channelrangetoalpha](assets/channeltoalpha.png "channelrangetoalpha")
+![channelrangetoalpha](assets/channelrangetoalpha.png "channelrangetoalpha")
+<img src="assets/channelrangetoalpha.png" width="700" alt="GEGL操作工具界面">
 
 ## English
 
@@ -67,11 +68,3 @@ cp build/gegl-*.so ~/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins/
 1. 顶部菜单点击：`滤镜 → 通用 → GEGL 操作`
 2. 在弹出窗口的搜索框输入：`channelrangetoalpha`
 3. 选中后点击「确定」即可使用插件
-
----
-
-### 总结
-
-- 提供**原生/Flatpak**双版本安装命令
-- 两种打开方式：**菜单快捷入口** + **GEGL 操作搜索**
-- 完整中英对照，清晰易懂
