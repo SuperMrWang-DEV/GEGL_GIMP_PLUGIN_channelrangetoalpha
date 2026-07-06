@@ -1,5 +1,7 @@
 # GEGL_GIMP_PLUGIN_channelrangetoalpha
 
+![channelrangetoalpha](assets/channeltoalpha.png "channelrangetoalpha")
+
 ## English
 
 ### 1. Compile & Install Commands
@@ -18,11 +20,19 @@ sh build_linux.sh
 cp build/gegl-*.so ~/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins/
 ```
 
-### 2. How to Open Plugin in GIMP
+### 2. How to Open the Plugin (2 Methods)
 
-Restart GIMP after copying files.
+After installation, **restart GIMP** to activate the plugin.
+
+#### Method 1: Menu Bar (Recommended)
+
 Menu path: `Colors → myfilters → Channel Range To Alpha`
-Short access: Press `/` in GIMP and search `channelrangetoalpha`.
+
+#### Method 2: GEGL Operation
+
+1. Go to `Filters → Generic → GEGL Operations`
+2. In the search box, enter: `channelrangetoalpha`
+3. Select it and click `OK` to apply
 
 ---
 
@@ -44,8 +54,24 @@ sh build_linux.sh
 cp build/gegl-*.so ~/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins/
 ```
 
-### 2. GIMP 插件打开路径说明
+### 2. 插件打开方式（两种方法）
 
-复制文件完成后**重启GIMP**生效。
+安装完成后**重启 GIMP**，插件即可使用。
+
+#### 方法一：菜单打开（推荐）
+
 菜单路径：`颜色 → myfilters → Channel Range To Alpha`
-快速调取：GIMP内按下 `/` 快捷键，搜索 `channelrangetoalpha` 直接打开滤镜。
+
+#### 方法二：GEGL 操作打开
+
+1. 顶部菜单点击：`滤镜 → 通用 → GEGL 操作`
+2. 在弹出窗口的搜索框输入：`channelrangetoalpha`
+3. 选中后点击「确定」即可使用插件
+
+---
+
+### 总结
+
+- 提供**原生/Flatpak**双版本安装命令
+- 两种打开方式：**菜单快捷入口** + **GEGL 操作搜索**
+- 完整中英对照，清晰易懂
